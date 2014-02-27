@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LegacyWPF", "LegacyWPF\LegacyWPF.csproj", "{D449556A-A2E6-4240-A9EC-DC1219ADEF0C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LegacyWPF.Tests", "LegacyWPF.Tests\LegacyWPF.Tests.csproj", "{CA6789C6-7D56-4547-A8B6-CDC42279E310}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{E5935D43-DDAC-4348-B5B6-9020C239F282}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D449556A-A2E6-4240-A9EC-DC1219ADEF0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D449556A-A2E6-4240-A9EC-DC1219ADEF0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D449556A-A2E6-4240-A9EC-DC1219ADEF0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D449556A-A2E6-4240-A9EC-DC1219ADEF0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA6789C6-7D56-4547-A8B6-CDC42279E310}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA6789C6-7D56-4547-A8B6-CDC42279E310}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA6789C6-7D56-4547-A8B6-CDC42279E310}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA6789C6-7D56-4547-A8B6-CDC42279E310}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
